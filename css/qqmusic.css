@@ -1,0 +1,1099 @@
+.header-box{
+	height: 142px;
+	width: 1356px;
+/*	background-color:#26E3CF ;*/
+	  margin:0px auto;
+	
+}
+.header-centerbox{
+	height: 142px;
+    width:1200px ;	
+/*    background-color: #F08FED;*/
+    margin:0px auto;
+    position: relative;
+      border-bottom: #F3F3F3; 
+
+}
+.hc-search{
+	width: 1200px;
+	height: 90px;
+	/*background-color: #90E69F;	*/
+	
+}
+/*logo部分*/
+.logo{
+		width: 170px;
+		height:52px ;
+	position: absolute;
+	left: 0px;
+	top: 20px;
+		
+}
+/*QQ音乐主页连接*/
+.qqmusic-main{
+	display: inline-block;
+	width: 170px;
+	height: 23px;
+background: transparent;
+	/*background: black;*/
+	position: absolute;
+	left: 0px;
+	top: 49px;	
+	
+}
+/*我的音乐和vip*/
+.mmandvip{
+	width: 436px;
+	height: 90px;
+	/*background:palevioletred;*/
+	position: absolute;
+	left: 170px;
+	top: 0px;
+}
+.li1,.li3,.li2,.li4,.li5{
+   width: 94px;
+	height: 90px;
+    float: left;
+    background: white;
+    line-height:90px ;
+    text-align: center; 
+    
+}
+
+.li2{
+	   width: 112px;
+	   height: 90px;
+	    margin-left: -6px;
+   /* background: yellowgreen;  */ 
+}
+.li3{
+	 
+	    margin-left: -6px;
+   /* background: yellow;  */ 
+}
+.li4{
+    margin-left: -6px;
+   /* background: blue; */ 
+}
+.li5{
+     width: 66px;
+     margin-left: -6px;
+  /*  background: blueviolet; */ 
+}
+
+
+.mhome,.client,.mnumber{
+	width: 94px;
+	height: 90px;
+	display:inline-block;
+	font-size: 18px;
+   color: #000000;
+
+}
+.mhome{
+	background: #31C27C;
+}
+.mymusic{
+	width: 112px;
+	height: 90px;
+	display:inline-block;
+   font-size: 18px;
+    color: #000000;
+  
+  
+}
+.vip{
+	width: 66px;
+	height: 90px;
+	display:inline-block;
+	font-size: 18px;
+	color: #000000;
+}
+.mmandvip a:hover{
+	color: #31C27C;
+	
+}
+/*客户端隐藏框*/
+
+.client-minibox{
+	width: 130px;
+	height: 100px;
+	border: 1px solid #C9C9C9;
+	background: white;
+	position: absolute;
+	top: 60px;
+	left:229px;
+	z-index: 12;
+	text-align: center;
+	display:none ;
+}
+.client-minibox>li{
+	width: 120px;
+	height: 13px;
+	text-align: center;
+	line-height: 13px;
+	margin-top: 10px;
+}
+.client-minibox a{
+	width: 120px;
+	height: 13px;
+	display: inline-block;	
+	color: #000000;	
+	font-size: 12px;
+	position: absolute;
+	right: 0px;
+	top: 10px;
+}
+.client-minibox .only{
+	top:35px;
+}
+.client-minibox .skin{
+	top:59px;
+}
+.client-minibox .load-experience{
+	top:82px;
+	right: 8px;
+}
+.client-minibox .iconfont{
+	font-size: 14px;
+	color: #31C27C;
+   position:relative ;
+   top: 0px;
+   left: -54px;
+}
+.client-minibox .load-experience{
+	
+	background: #31C27C;
+	border-radius: 6.5px;
+	color: white;
+	width: 100px;
+	height: 13px;
+
+}
+.li3 .client:hover~.client-minibox{
+	display: block;
+}
+/*标题的隐藏小框*/
+.mmandvip p{
+	width: 60px;
+	height: 18px;
+	line-height: 18px;
+	font-size: 13px;
+	border: 1px solid black;
+	position: relative;
+	top: -23px;
+	left: 42px;
+	z-index:300 ;
+	display: none;	
+}
+.mmandvip .li3 p{
+	top: -82px;
+	left: 36px;
+}
+.mmandvip .li4 p{
+	top: -82px;
+	left: 36px;
+}
+.mmandvip>li>a:hover~p{
+	display: block;
+	}
+
+
+/*搜索框及其隐藏栏*/
+.search{
+	width: 218px;
+	height: 43px;
+	/*background-color: blue;*/
+	position: relative;
+	left: 610px;
+	top: 30px;
+	}
+input[type=text]{
+	width: 178px;
+	height:38px ;
+	border: 1px solid #C9C9C9;
+	border-right: none;
+	float: left;
+}
+input[type=submit]{
+	width: 38px;
+	height:42px ;
+	background: white;
+	border:1px solid #C9C9C9;
+	border-left: none;
+	float: left;
+	font-size: 20px;
+	 font-weight: 700;
+	 color: #636363;	
+}
+.kz-box{
+		width: 217px;
+		height: 110px;
+		border:1px solid ;
+		border-top:none;
+		box-sizing: border-box;
+		position: absolute;
+		left: 0px;
+		top:50px;
+		z-index: 30;
+		background:white ;
+	  display: none;
+	}
+input[type=text]:focus~.kz-box{
+				display: block;
+	}
+.kz-box li span:first-of-type{
+	color:#F61D1D ;
+}
+.kz-box li span:last-of-type{
+	color:#727272 ;
+	float: right;
+	font-size:12px ;
+}
+.kz-box li:hover{
+	background: #31C27C;
+}
+.kz-box li a{
+	color:black;
+}
+
+
+/*头部右边框：登录及付费*/
+
+
+.header-right{
+	width: 320px;
+	height: 90px;
+	/*background:gray ;*/
+	position: relative;
+    left: 826px;
+	 top: -43px;	
+
+}
+.load-box{
+	  float: left;
+	  	height: 90px;
+	  	width: 38px;
+	  	 margin-left: 20px;
+	  
+}
+.load{
+  display:inline-block;
+    background: white;
+    line-height:90px ;
+    text-align: center; 
+      font-size: 18px; 
+      height: 90px;
+	  width: 38px;
+	  color: #000000; 
+	  
+	  
+}
+.super-box{
+	  float: left;
+	width:110px ;
+	height: 38px;
+	 border-radius: 2px;
+	  background: #31C27C;
+	  margin-top: 24px;
+	 margin-left: 30px;
+}
+.greensuper{
+	width:110px ;
+	height: 38px;
+	display:inline-block;
+	color: white;
+	 font-size: 13px; 
+	 text-align: center; 
+	 line-height: 38px;
+
+}
+.pay-box{
+	  float: right;
+	width:85px ;
+	height: 38px;
+	border: 1px solid #000000;
+ border-radius: 2px;
+	  margin-top: 24px;
+	 margin-left: 30px;
+	
+}
+.paypackage{
+	width:85px ;
+	height: 38px;
+	 line-height: 38px;
+	display:inline-block;
+	color: #000000;
+	 font-size: 13px;
+	  text-align: center;  
+	 background: white;
+
+}
+.load:hover{
+color: #31C27C;	
+}
+.greensuper:hover{
+	background: green;
+	
+}
+.paypackage:hover{
+background: gray;
+}
+/*首页*/
+.capital{
+	width: 1200px;
+	height:52px ;
+/*	background:palegoldenrod;*/
+	position: absolute;
+	top: 90px;
+	left: 0px;
+    border-top: 1px solid #f2f2f2;
+    padding: 0px 0px 0px 175px;
+}
+.capital li{
+	width: 30px;
+	height:51px;
+	 float: left;
+	 font-size: 13px;
+	 padding: 0px 23.5px;
+
+}
+.capital .c-first>a{
+	color: #31C27C;
+}
+
+.capital .c-musiclist{
+	  width: 60px;	
+	  
+}
+.capital .c-numCD{
+	  width: 60px;	
+}
+.capital .c-list{
+	width: 45px;
+}
+.capital .c-mv{
+	width: 22.6px;
+}
+.capital a{
+    width: 30px;
+	height: 51px; 
+    line-height:51px ;
+    text-align: center; 
+    	 color: #000000;
+}
+.c-musiclist .musiclist{
+	  width: 60px;
+	
+}
+.c-numCD .numCD{
+	  width: 60px;	
+}
+.c-list .list{
+	width: 45px;
+}
+.c-mv .mv{
+	width: 22.6px;
+}
+
+
+.capital a:hover{
+	color: #31C27C;
+}
+
+/*歌单推荐*/
+.recommend-box{
+	width: 1356px;
+	height: 532px;
+	background:#F3F3F3;
+	position:relative;
+	left: 0px;
+	top: 0px;
+}
+.recommend-center{
+	width: 1200px;
+	height: 532px;
+		margin: 0px auto;
+		/*background: blue;*/
+}
+/*左右箭头*/
+
+.recommend-box>.yjt{
+	font-size:100px ;
+	color: #000000;
+	position: absolute;	
+	right: 0px;
+	top: 256px;
+}
+.recommend-box>.zjt{
+	font-size:100px ;
+	color: #000000;
+	position: absolute;	
+	left: 0px;
+	top: 256px;
+	unicode-bidi: bidi-override;
+}
+
+/*歌单推荐标题*/
+.musiclist-recommend{
+	width: 1200px;
+	height: 114px;
+	margin: 0px auto;
+	/*background: pink;*/
+	
+}
+.recommend-title{
+	width: 196px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin: 0px auto;
+/*	background: greenyellow;*/
+	font-weight: bold;
+	padding: 50px 0px 24px 0px;
+	word-spacing: 3px;
+}
+/*导航栏*/
+.recommend-guide{
+	width: 1200px;
+	height:50px ;
+
+/*	background:yellow;*/
+	position: absolute;
+	top: 114px;
+	left: 78px;
+/*text-align: center;*/
+/* line-height: 50px;*/
+
+}
+.recommend-guide li{
+	width: 60px;
+	height:50px;
+	 float: left;
+	 font-size: 14px;
+	margin-left: 60px;
+}
+
+.recommend-guide .recommend-foryou{
+	margin-left: 280px;
+}
+
+.recommend-guide .recommend-foryou>a{
+	color: #31C27C;
+	
+}
+
+.recommend-guide .c-classical{
+	  width: 30px;	
+	 
+	  
+}
+.recommend-guide .love-song{
+	  width: 30px;	
+}
+.recommend-guide .light-music{
+	width: 45px;
+}
+.recommend-guide a{
+    width: 60px;
+	height: 22px; 
+   color: #000000;
+   display: inline-block;
+  /* text-align: center;*/
+ line-height: 22px;
+   
+}
+.recommend-guide .classical{
+	  width: 30px;
+	
+}
+.recommend-guide .L-music{
+	  width: 45px;	
+}
+.recommend-guide .l-song{
+	width: 30px;
+}
+
+
+.recommend-guide a:hover{
+	color: #31C27C;
+}
+/*歌单推荐图*/
+.ml-picture{
+	width: 1220px;
+	height: 310px;
+	/*background: palevioletred;*/
+	position: absolute;
+	top: 164px;
+	left: 80px;	
+}
+
+.ml-picture li{
+	width: 244px;
+	height: 310px;
+	float: left;
+}
+
+.ml-picture img{
+	width: 220px;
+	height: 260px;		
+}
+
+.ml-picture a{
+	
+	color: #000000;
+	font-size: 14px;
+	float: left;
+	
+}
+
+.ml-picture p{
+    width: 244px;
+	height: 14px;
+	color: #999999;
+	font-size: 14px;
+	float: left;
+}
+
+.ml-picture a:hover{
+	color: #31C27C;
+}
+.ml-picture span{
+	width: 50px;
+	height: 50px;
+	position: absolute;
+	top: 138px;
+	left: 91px;	
+}
+.ml-picture li:nth-child(2) span{
+	left: 326px;
+}
+.ml-picture li:nth-child(3) span{
+	left: 582px;
+}
+.ml-picture li:nth-child(4) span{
+	left: 825px;
+}
+.ml-picture li:nth-child(5) span{
+	left: 1063px;
+}
+
+.ml-picture .iconfont{
+	font-size:50px ;
+	color: #000000;
+/* display: none;	*/	
+}
+ .ml-picture img:hover .iconfont{
+	display: block;
+}
+
+
+/*分隔栏*/
+.recommend-box .recommend-center .split-bar{
+	width:1200px ;
+	height: 38px;
+	/*background: black; */
+	position: relative;
+	left: 0px;
+	top: 379px;
+	font-size: 30px;
+	text-align: center;
+	color: #000000;
+}
+
+
+/*新歌首发*/
+.newm-pfirst{
+	width: 1356px;
+	height: 556px;
+	background:#F3F3F3;
+	position: relative;
+}
+.new-pfirst-center{
+	width: 1200px;
+	height: 556px;
+/*	background: yellow;*/
+		margin: 0px auto;
+}
+/*标题：新歌首发*/
+..new-pfirst-header{
+	width: 1200px;
+	height: 114px;
+	margin: 0px auto;
+	/*background: blueviolet;*/
+
+}
+.new-pfirst-title{
+	width: 196px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin: 0px auto;
+/*background: brown;*/
+	font-weight: bold;
+	padding: 50px 0px 24px 0px;
+	word-spacing: 3px;
+}
+/*导航栏*/
+.new-pfirst-guide{
+	width: 1200px;
+	height:50px ;
+	position: absolute;
+	top: 114px;
+	left: 78px;
+	/*background: peachpuff;*/
+	text-align: center;
+	line-height: 50px;
+}
+.new-pfirst-guide li{
+	width: 30px;
+	height:20px;
+	 float: left;
+	 font-size: 14px;
+	margin-left: 60px;
+	color: #000000;
+
+}
+.new-pfirst-guide li:first-of-type{
+	width: 90px;
+	height:30px;
+	margin-left: 40px;
+	margin-top: 8px;
+	border: 1px solid black;
+	line-height: 30px;
+}
+.new-pfirst-guide li a{
+	color: #000000;
+}
+.new-pfirst-guide li:nth-child(2) a{
+color:#31C27C;
+}
+.new-pfirst-guide li .iconfont{
+	font-size: 14px;
+	
+}
+.new-pfirst-guide li:nth-child(2){
+	margin-left: 224px;
+}
+.new-pfirst-guide li  a:hover{
+	color: #31C27C;
+}
+/*新歌首发图片*/
+.newsong-picture{
+	width: 1230px;
+	height: 333px;
+	/*background: palevioletred;*/
+	position: absolute;
+	top: 164px;
+	left:61px;	
+}
+
+.newsong-picture li{
+	width: 407px;
+	height: 108px;
+	float: left;
+/*	border: 1px solid sandybrown;*/
+	
+}
+
+.newsong-picture img{
+	width: 90px;
+	height: 94px;	
+	margin-left:20px ;
+	margin-top: 10px;
+}
+.newsong-picture li p{
+	color:#999999;
+	width: 60px;
+	height: 10px;
+ position: relative;
+ top: -64px;
+ left: 340px;
+ font-size: 14px;
+}
+.newsong-picture li :nth-child(3){
+	color: #000000;
+	width: 60px;
+	height: 10px;
+ position: relative;
+ top: -38px;
+ left: -26px;
+ font-size: 14px;
+}
+.newsong-picture li :nth-child(4){
+	color: #999999;
+	width: 60px;
+	height: 10px;
+ position: relative;
+ top: -19px;
+ left: -57px;
+ font-size: 14px;
+ 
+}
+
+.newsong-picture li .a-new{
+
+ left: -82px;
+ 
+}
+.newsong-picture li a:hover{
+	color:#31C27C;
+}
+
+.newsong-picture li span{
+
+ position: relative;
+ top: -34px;
+ left: -63px;
+ font-size: 30px;
+ 
+}
+
+/*分隔栏*/
+.newm-pfirst .new-pfirst-center .split-bar{
+	width:1230px ;
+	height: 38px;
+	/*background: black; */
+	position: relative;
+	left: -18px;
+	top: 384px;
+	font-size: 30px;
+	text-align: center;
+	color: #000000;
+}
+/*左右箭头*/
+
+.newm-pfirst>.yjt2{
+	font-size:100px ;
+	color: #000000;
+	position: absolute;	
+	right: -15px;
+	bottom: 219px;
+}
+.newm-pfirst>.zjt2{
+	font-size:100px ;
+	color: #000000;
+	position:absolute ;	
+	left: 0px;
+	bottom: 219px;
+	unicode-bidi: bidi-override;
+}
+/*精彩推荐*/
+.jctj-box{
+	width: 1356px;
+	height: 418px;
+	background:#F3F3F3;
+	position: relative;
+}
+.jctj{
+	width: 1200px;
+	height: 418px;
+/*background: yellow;*/
+		margin: 0px auto;}
+		
+		/*标题：精彩推荐*/
+.jctj-header{
+	width: 1200px;
+	height: 114px;
+	margin: 0px auto;
+/*	background:brown;*/
+
+}
+.jctj-title{
+	width: 196px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin: 0px auto;
+/*background: brown;*/
+	font-weight: bold;
+	padding: 50px 0px 24px 0px;
+	word-spacing: 3px;
+}
+	<!--图片：精彩推荐-->
+.jctj-picture{
+	width: 1220px;
+	height: 246px;
+/*	background: red;*/
+}
+ img:hover{
+	transform: scale(1.1);
+	
+}	
+
+.jctj-picture li{
+	width: 598px;
+	height: 246px;
+	float: left;
+	border: 1px solid sandybrown;
+	
+}
+.jctj-picture img{
+	width: 598px;
+	height: 246px;	
+}
+.jctj-picture li:nth-child(2) img{
+	float: right;
+}
+
+/*新碟首发*/
+.new-disc{
+	width: 1356px;
+	height: 775px;
+	/*background:blue;*/
+	position: relative;
+}
+.new-disc-center{
+	width: 1200px;
+	height: 775px;
+/*background: pink;*/
+		margin: 0px auto;
+}
+
+/*导航栏*/
+.new-disc-guide{
+	width: 1200px;
+	height:50px ;
+/*	background:blueviolet;*/
+	position: absolute;
+	top: 114px;
+	left: 78px;
+
+}
+.new-disc-guide li{
+	width: 60px;
+	height:50px;
+	 float: left;
+	 font-size: 14px;
+	margin-left: 80px;
+}
+.new-disc-guide .new-china{
+	margin-left: 298px;
+	color:  #31C27C;
+}
+.new-disc-guide .new-china a{
+	
+	color:  #31C27C;
+}
+.new-disc-guide .n-more{
+margin-left: 219px;
+}
+
+
+.new-disc-guide a{
+    width: 60px;
+	height: 22px; 
+   color: #000000;
+  display: inline-block;
+ line-height: 22px;
+   
+}
+
+.new-disc-guide a:hover{
+	color: #31C27C;
+}
+/*新碟首发图片*/
+.new-disc-picture{
+	width: 1200px;
+	height: 610px;
+	/*background: palevioletred;*/
+   position: absolute;
+	top: 164px;
+	left:78px;	
+}
+
+ .new-disc-picture li{
+	width: 238px;
+	height: 302px;
+	float: left;
+	border: 1px solid white;
+	position: relative;
+}	
+	
+.new-disc-picture li img{
+	width: 222px;
+	height: 224px;
+	margin-top: 20px;	
+}
+
+.new-disc-picture li :nth-child(3){
+    width: 100px;
+	height: 22px; 
+   color: #000000;
+  display: inline-block;
+ line-height: 22px;
+ position: absolute;
+ bottom: 32px;
+ left: 22px;
+ font-size: 14px;
+
+   
+}
+.new-disc-picture li :nth-child(4){
+   width: 100px;
+height: 22px; 
+   color: #999999;
+  display: inline-block;
+ line-height: 22px;
+ position: absolute;
+ bottom: 15px;
+ left: 22px;
+ font-size: 14px;
+   
+}
+.new-disc-picture li a:hover{
+	color:#31C27C
+}
+.new-disc-picture  li span{
+
+ position: absolute;
+ top: 118px;
+ left: 89px;
+ font-size: 60px;
+ 
+}
+
+/*排行榜*/
+.ranklist{
+	width: 1356px;
+	height: 669px;
+background:#F3F3F3;
+	position: relative;
+}
+.ranklist-center{
+	width: 1200px;
+	height: 669px;
+/*background: pink;*/
+	margin: 0px auto;
+}
+
+.ranklist-headerr{
+	width: 1200px;
+	height: 114px;
+	margin: 0px auto;
+/*	background:brown;*/
+
+}
+.ranklist-title{
+	width: 196px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	margin: 0px auto;
+/*background: brown;*/
+	font-weight: bold;
+	padding: 50px 0px 24px 0px;
+	word-spacing: 3px;
+}
+
+.ranklist ul{
+	width: 1220px;
+	height: 500px;
+/*	background:powderblue;*/
+	margin-top: 0px;
+	color: white;
+}
+.ranklist li{
+	width: 200px;
+	height: 500px;
+/*	background:powderblue*/
+	background: #808080;
+	float: left;
+	text-align: center;
+	margin-left: 32px;
+	margin-top: 1px;
+}
+.ranklist li .p1{
+margin-top: 21px;
+font-size: 21px;
+line-height: 10px;
+	
+}
+.ranklist li  a{
+line-height: 4px;
+color: white;
+
+	
+}
+
+.ranklist li .p2{
+margin-top: 5px;
+line-height: 4px;	
+}
+
+.ranklist .li1{
+	background:#CB6E89 ;
+}
+.ranklist .li2{
+	background:#6D96B3 ;
+}
+.ranklist .li3{
+	background:#6CBDB4 ;
+}
+.ranklist .li4{
+	background:#538F94;
+}
+.ranklist .li5{
+	background:#538F94 ;
+}
+.theend{
+		width: 1356px;
+	height: 589px;
+	background: #333333;
+	
+}
+.theend-center{
+	width: 1200px;
+	height: 589px;
+	/*border: 1px solid white;*/
+	margin-left:77px ;
+	position: relative;
+	
+}
+.theend-center-l{
+	width: 357px;
+	height: 299px;	
+	color: white;
+	margin-top: 40px;
+	margin-left: 5px;
+/*	border: 1px solid white;*/
+	float: left;
+
+}
+.theend-center-c{
+	width: 304px;
+	height: 286px;	
+	color: white;
+	margin-top: 40px;
+	margin-left: 5px;
+	border: 1px solid white;
+	position: absolute;
+	top: 0px;
+left: 461px;	
+}
+.theend-center-r{
+	width: 300px;
+	height: 377px;	
+	color: white;
+	margin-top: 40px;
+	margin-left: 5px;
+/*	border: 1px solid white;*/
+	position: absolute;
+	top: 0px;
+	right: 5px;
+}
+.theend .iconfont{
+	
+
+	font-size: 40px;
+		padding: 10px ;
+	
+	
+}
+/*.theend .theend-center-l li>span{
+	display: block;
+		width: 104px;
+	height: 84px;
+	float: left;
+		margin-bottom: 0px;
+}*/
